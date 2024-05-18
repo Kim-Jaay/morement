@@ -1,6 +1,12 @@
-.main_visual_video {width: 100vw; height: 100vh; object-fit: cover;}
-.main{position: relative;}
-.main_title_wrap{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 48px; font-weight: 600;writing-mode: vertical-lr;
-    text-orientation: upright; white-space:nowrap; } 
-.main_title{margin: 0 120px;}
-.main_title3{ text-align: right;}
+
+.main {
+    position: relative;
+
+    .main_visual_video { width: 100vw; height: 100vh; object-fit: cover; }
+    .main_title_wrap {
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 48px; font-weight: 600; writing-mode: vertical-lr; text-orientation: upright; white-space: nowrap;
+
+        .main_title { margin: 0 120px; }
+        .main_title3 { text-align: right; }
+    }
+}

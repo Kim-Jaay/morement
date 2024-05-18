@@ -12,10 +12,10 @@ function Main() {
             src={process.env.PUBLIC_URL + "/images/main/main.mp4"}
             className="main_visual_video"
           />
-          <div class="main_title_wrap">
-            <div class="main_title main_title1">BREAK</div>
-            <div class="main_title main_title2">OUT OF THE</div>
-            <div class="main_title main_title3">FRAME</div>
+          <div className="main_title_wrap">
+            <div className="main_title main_title1">BREAK</div>
+            <div className="main_title main_title2">OUT OF THE</div>
+            <div className="main_title main_title3">FRAME</div>
           </div>
         </div>
       </div>
