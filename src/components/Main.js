@@ -1,4 +1,4 @@
-import '../css/main.scss'
+import "../css/main.scss";
 
 function Main() {
   return (
@@ -12,6 +12,9 @@ function Main() {
             src={process.env.PUBLIC_URL + "/images/main/main.mp4"}
             className="main_visual_video"
           />
+          <div>BREAK</div>
+          <div>OUT OF THE</div>
+          <div>FRAME</div>
         </div>
       </div>
     </div>
