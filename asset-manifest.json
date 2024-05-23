@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/morement/static/css/main.9503e09c.css",
+    "main.css": "/morement/static/css/main.7025a19b.css",
     "main.js": "/morement/static/js/main.a25d5afa.js",
     "index.html": "/morement/index.html",
-    "main.9503e09c.css.map": "/morement/static/css/main.9503e09c.css.map",
+    "main.7025a19b.css.map": "/morement/static/css/main.7025a19b.css.map",
     "main.a25d5afa.js.map": "/morement/static/js/main.a25d5afa.js.map"
   },
   "entrypoints": [
-    "static/css/main.9503e09c.css",
+    "static/css/main.7025a19b.css",
     "static/js/main.a25d5afa.js"
   ]
 }
