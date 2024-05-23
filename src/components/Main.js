@@ -13,14 +13,14 @@ function Main() {
             className="main_visual_video"
           />
           {/* <div className="main_title_wrap1">
-            <div className="main_title main_title1">BREAK</div>
-            <div className="main_title main_title2">OUT OF THE</div>
-            <div className="main_title main_title3">FRAME</div>
+            <div className="main_title main_title1-1">BREAK</div>
+            <div className="main_title main_title1-2">OUT OF THE</div>
+            <div className="main_title main_title1-3">FRAME</div>
           </div> */}
           <div className="main_title_wrap2">
-            <div className="main_title main_title1">I always try to craft </div>
-            <div className="main_title main_title2">new experiences through challenges </div>
-            <div className="main_title main_title3">and immersion.</div>
+            <div className="main_title main_title2-1">I always try to craft </div>
+            <div className="main_title main_title2-2">new experiences through challenges </div>
+            <div className="main_title main_title2-3">and immersion.</div>
           </div>
         </div>
       </div>
