@@ -9,7 +9,7 @@ function Main() {
             autoPlay
             loop
             muted
-            src={process.env.PUBLIC_URL + "/images/main/main.mp4"}
+            src={process.env.PUBLIC_URL + "/images/main/main2.mp4"}
             className="main_visual_video"
           />
           <div className="main_title_wrap">
