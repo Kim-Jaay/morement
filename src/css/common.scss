@@ -8,7 +8,9 @@
 
 
 
-body{overflow-x: hidden; overflow-y:auto ;}
+body{overflow-x: hidden; overflow-y:auto ; background: #000; word-break: keep-all;}
+
+.main_logo { font-size: 24px; font-weight: 500; color: #fff; }
 
 .gap { height: 100px; }
 .sgap { height: 80px}
@@ -16,7 +18,7 @@ body{overflow-x: hidden; overflow-y:auto ;}
 .sssgap { height: 30px}
 .ssssgap { height: 20px}
 
-.wfull{width: 100vw; padding: 0 100px;}
+.wfull{width: 100vw; padding: 0 5vw; }
 .w1600{width: 1600px; margin: 0 auto;}
 .w1400{width: 1400px; margin: 0 auto;}
 

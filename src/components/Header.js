@@ -3,8 +3,8 @@ import "../css/header.scss";
 function Header() {
   return (
     <div className="header_all_wrap">
-      <div className="header_wrap">
-        <a href="/morement" className="header_main_logo">
+      <div className="header_wrap wfull">
+        <a href="/morement" className="main_logo">
           Morement
         </a>
 

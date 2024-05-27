@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router";
 import "./css/common.scss";
 import Main from "./components/Main";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
         </Routes>
+        <Footer/>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ function Main() {
             <div className="main_title main_title1-2">OUT OF THE</div>
             <div className="main_title main_title1-3">FRAME</div>
           </div> */}
-          <div className="main_title_wrap2">
+          <div className="main_title_wrap2 wfull">
             <div className="main_title main_title2-1">I always try to craft </div>
             <div className="main_title main_title2-2">new experiences through challenges </div>
             <div className="main_title main_title2-3">and immersion.</div>
