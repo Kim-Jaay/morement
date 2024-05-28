@@ -8,7 +8,7 @@ function Footer() {
       <div className="wfull">
         <div className="footer_top">
           <a href="/morement" className="main_logo">
-            Morement
+            Jay, morement
           </a>
           <div>Juhyun Kim</div>
           <div>Service Designer & Front-End Developer</div>

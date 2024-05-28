@@ -5,7 +5,7 @@ function Header() {
     <div className="header_all_wrap">
       <div className="header_wrap wfull">
         <a href="/morement" className="main_logo">
-          Morement
+          morement
         </a>
 
         <div className="header_nav">
