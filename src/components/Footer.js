@@ -6,6 +6,11 @@ function Footer() {
   return (
     <div className="footer_all_wrap">
       <div className="wfull">
+        <div className="footer_title">
+
+            Our Morement
+
+        </div>
         <div className="footer_top">
           <a href="/morement" className="main_logo">
             Jay, morement
