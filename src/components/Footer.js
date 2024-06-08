@@ -1,4 +1,5 @@
 import "../css/footer.scss";
+import { Link } from "react-router-dom";
 
 import React from "react";
 
@@ -38,16 +39,15 @@ function Footer() {
           <div
             className="footer_bot"
             data-aos="fade-up"
-            data-aos-duration="500">
+            data-aos-duration="500"
+          >
             <div>
               <div>This website is designed for personal portfolios.</div>
               <div>© 2022-2024 Jay. All Rights Reserved.</div>
             </div>
 
             <div className="what_morement">
-              <a href="">
-                What is Morement
-              </a>
+              <Link to="/OurMorement"> What is Morement</Link>
             </div>
           </div>
         </div>

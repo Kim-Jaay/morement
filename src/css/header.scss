@@ -1,11 +1,7 @@
 .header_all_wrap {
-    position: relative; font-size: 18px;
+  position: fixed; top: 0; left: 0; font-size: 18px; z-index: 999;width: 100%;
 
-    a { cursor: pointer; }
-    .header_wrap {
-        position: absolute; top: 0; left: 0; height: 100px; display: flex; justify-content: space-between; color: #fff; z-index: 999; width: 100%; line-height: 100px;
-
-     
-    }
-    .header_nav { display: flex; gap: 40px; text-transform: uppercase; }
+  a { cursor: pointer; }
+  .header_wrap {  height: 100px; display: flex; justify-content: space-between; color: #fff; z-index: 999; width: 100%; line-height: 100px; }
+  .header_nav { display: flex; gap: 40px; text-transform: uppercase; }
 }

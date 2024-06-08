@@ -14,12 +14,18 @@ function Projects() {
     <div className="wfull">
       <div className="project_all_wrap">
         <div className="main_project_all_wrap">
-          <div className="project_title"  data-aos="fade-up"
-          data-aos-duration="500">The Main Projects of Morement</div>
+          <div
+            className="project_title"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            The Main Projects of Morement
+          </div>
           <div className="main_project_wrap">
             {MainProject.map((it, idx) => {
               return (
-                <div className="main_project"
+                <div
+                  className="main_project"
                   key={idx}
                   data-aos="fade-up"
                   data-aos-delay={50 * idx}
@@ -41,12 +47,18 @@ function Projects() {
         </div>
 
         <div className="all_project_all_wrap">
-          <div className="project_title"  data-aos="fade-up"
-          data-aos-duration="500">All Projects of Morement</div>
+          <div
+            className="project_title"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            All Projects of Morement
+          </div>
           <div className="all_project_wrap">
             {AllProject.map((it, idx) => {
               return (
-                <div className="all_project"
+                <div
+                  className="all_project"
                   key={idx}
                   data-aos="fade-up"
                   data-aos-delay={50 * idx}
