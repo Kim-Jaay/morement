@@ -35,7 +35,7 @@ function Footer() {
             </div>
 
             <div className="what_morement">
-              <Link to="/OurMorement"> What is Morement</Link>
+              <Link to="/OurMorement"> What is Morement <i className="xi-arrow-right"></i> </Link>
             </div>
           </div>
         </div>
