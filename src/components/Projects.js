@@ -5,8 +5,8 @@ function Projects() {
   return (
     <div className="wfull">
       <div className="project_all_wrap">
-        <div>Projects</div>
-        <div className="gap"></div>
+        <div className="project_title">The Main Projects of Morement</div>
+        <div className="sgap"></div>
         <div className="project_wrap">
           <div>
             <img
