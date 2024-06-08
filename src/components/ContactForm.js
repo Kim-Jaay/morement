@@ -35,7 +35,7 @@ const ContactForm = () => {
       <div className="wfull">
         <div className="contact_form_introduce">
           <div data-aos="fade-up" data-aos-duration="500">
-            Hi, I'm Jay.
+            Hi, I'm Jay 😃
           </div>
           <div data-aos="fade-up" data-aos-duration="500">
             Thanks for taking an interest in me.
