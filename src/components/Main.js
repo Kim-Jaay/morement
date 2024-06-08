@@ -11,6 +11,7 @@ function Main() {
             autoPlay
             loop
             muted
+            playsinline
             src={process.env.PUBLIC_URL + "/images/main/main3.mp4"}
             className="main_visual_video"
           />
