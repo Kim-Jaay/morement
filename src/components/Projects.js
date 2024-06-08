@@ -132,7 +132,7 @@ function Projects() {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/project/thumbnail/thumb_03.png"
+                "/images/project/thumbnail/thumb_02.png"
               }
               alt=""
             />
