@@ -7,7 +7,7 @@ import ToTop from "./components/ToTop";
 import OurMorement from "./components/OurMorement";
 import ProjectPage from "./components/ProjectPage";
 import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   useEffect(() => {
@@ -25,7 +25,7 @@ function App() {
           <Route path="/OurMorement" element={<OurMorement />} />
           <Route path="/:id" element={<ProjectPage />} />
           <Route path="/Resume" element={<Resume />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/ContactForm" element={<ContactForm />} />
         </Routes>
 
  
