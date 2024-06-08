@@ -1,5 +1,17 @@
-.project_all_wrap{
-padding: 100px 0;
-.project_title{font-size: 40px;}
-.project_wrap{display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;}
+.project_all_wrap {
+    padding: 100px 0;
+
+    .project_title { font-size: 40px; }
+    .main_project_all_wrap {
+        border-bottom: 1px solid #222;
+
+        .main_project_wrap { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 100px 0; }
+    }
+    .all_project_all_wrap {
+        border-bottom: 1px solid #222; padding: 100px 0;
+
+        .all_project_wrap { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 100px 0; }
+
+
+    }
 }
