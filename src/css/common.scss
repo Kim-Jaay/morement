@@ -4,24 +4,20 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
-*{font-family: 'pretendard', sans-serif; color: #fff;}
-*{font-family: 'jost', sans-serif; color: #fff;}
+* { font-family: 'pretendard', sans-serif; color: #fff; }
+* { font-family: 'jost', sans-serif; color: #fff; }
+*::selection { background: #2F44FF; color: #fff; }
 
 
 
-body{overflow-x: hidden; overflow-y:auto ; background: #0d0d0d; word-break: keep-all;}
-
+body { overflow-x: hidden; overflow-y: auto ; background: #0d0d0d; word-break: keep-all; }
 .main_logo { font-size: 24px; font-weight: 500; color: #fff; }
-div b{font-weight: 800;}
+div b { font-weight: 800; }
 .gap { height: 100px; }
 .sgap { height: 80px}
 .ssgap { height: 50px}
 .sssgap { height: 30px}
 .ssssgap { height: 20px}
-
-.wfull{width: 100vw; padding: 0 5vw; }
-.w1600{width: 1600px; margin: 0 auto;}
-.w1400{width: 1400px; margin: 0 auto;}
-
-
-
+.wfull { width: 100vw; padding: 0 5vw; }
+.w1600 { width: 1600px; margin: 0 auto; }
+.w1400 { width: 1400px; margin: 0 auto; }
