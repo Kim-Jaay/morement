@@ -17,7 +17,7 @@ function Projects() {
           <div
             className="project_title"
             data-aos="fade-up"
-            data-aos-duration="500"
+             
           >
             The Main Projects of Morement
           </div>
@@ -50,7 +50,7 @@ function Projects() {
           <div
             className="project_title"
             data-aos="fade-up"
-            data-aos-duration="500"
+             
           >
             All Projects of Morement
           </div>

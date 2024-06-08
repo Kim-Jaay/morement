@@ -17,7 +17,7 @@ function Main() {
           <div
             className="main_title_wrap1 wfull"
             data-aos="fade-up"
-            data-aos-duration="500"
+             
           >
             <div className="main_title main_title1-1">
               I always try to craft{" "}
