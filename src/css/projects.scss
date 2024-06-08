@@ -23,7 +23,7 @@
             display: grid; grid-template-columns: repeat(1, 1fr); gap: 20px; padding: 100px 0;
 
             .all_project_list {
-                padding: 80px; border: 1px solid #222; display: grid; grid-template-columns: repeat(3,1fr); line-height: 1.45; transition: 0.5s;
+                padding: 80px; border: 1px solid #222; display: grid; grid-template-columns: repeat(3,1fr); line-height: 1.45; transition: 0.5s; align-items: center;
 
                 &:hover {
                     background: #fff;
