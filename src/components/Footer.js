@@ -18,10 +18,10 @@ function Footer() {
             <div>Juhyun Kim</div>
             <div>Service Designer & Front-End Developer</div>
             <div className="ssgap"></div>
-            <div>
+            {/* <div>
               <b>T </b>
               <a href="callto:01075788546"> +82 10 7578 8546</a>
-            </div>
+            </div> */}
             <div>
               <b>E </b>
               <a href="mailto:kimjay.824@gmail.com"> kimjay.824@gmail.com</a>
