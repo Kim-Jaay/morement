@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../css/contact.scss";
+import Footer from "./Footer";
 
 const ContactForm = () => {
   const form = React.useRef(null);
@@ -33,14 +34,26 @@ const ContactForm = () => {
     <div className="contact_form_all_wrap">
       <div className="wfull">
         <div className="contact_form_introduce">
-          <div>Hi, I'm Jay.</div>
-          <div>Thanks for taking an interest in me.</div>
-          <div>If you want to get in touch, </div>
-          <div>just leave me a message :)</div>
+          <div data-aos="fade-up" data-aos-duration="500">
+            Hi, I'm Jay.
+          </div>
+          <div data-aos="fade-up" data-aos-duration="500">
+            Thanks for taking an interest in me.
+          </div>
+          <div data-aos="fade-up" data-aos-duration="500">
+            If you want to get in touch,{" "}
+          </div>
+          <div data-aos="fade-up" data-aos-duration="500">
+            just leave me a message :)
+          </div>
         </div>
 
-        <div className="w1400">
-        <form ref={form} onSubmit={sendEmail}>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
           <div className="contact_info">
             <div className="contact_form_name">
               <label>Name</label>
@@ -63,7 +76,9 @@ const ContactForm = () => {
             value="Send a Message"
           />
         </form>
-      </div></div>
+      </div>
+
+      <Footer />
     </div>
   );
 };
