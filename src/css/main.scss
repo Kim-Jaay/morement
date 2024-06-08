@@ -5,18 +5,12 @@
 
         .main_visual_video {  width: 100vw; height: 100vh; object-fit: cover; }
         .main_title_wrap1 {
-            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 48px; font-weight: 600; writing-mode: vertical-lr; text-orientation: upright; white-space: nowrap;
-
-            .main_title { margin: 0 80px; }
-            .main_title1-3 { text-align: right; }
-        }
-        .main_title_wrap2 {
 
             position: absolute; top: 15vh; left: 0; width: 100%; font-size: 5.9vw; color: #fff; line-height: 1.2;
 
-            .main_title2-1 { text-align: right; }
-            .main_title2-2 { text-align: justify; white-space: nowrap; }
-            .main_title2-3 { text-align: left; }
+            .main_title1-1 { text-align: right; }
+            .main_title1-2 { text-align: justify; white-space: nowrap; }
+            .main_title1-3 { text-align: left; }
         }
     }
 }

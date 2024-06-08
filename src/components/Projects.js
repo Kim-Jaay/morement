@@ -4,6 +4,7 @@ import "../css/projects.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import MainProject from "../data/MainList.js";
+import AllProject from "../data/AllList.js";
 
 function Projects() {
   useEffect(() => {
@@ -13,13 +14,11 @@ function Projects() {
     <div className="wfull">
       <div className="project_all_wrap">
         <div className="main_project_all_wrap">
-          <div className="project_title">
-            The Main Projects of Morement
-          </div>
+          <div className="project_title">The Main Projects of Morement</div>
           <div className="main_project_wrap">
             {MainProject.map((it, idx) => {
               return (
-                <li
+                <div className="main_project"
                   key={idx}
                   data-aos="fade-up"
                   data-aos-delay={50 * idx}
@@ -34,39 +33,39 @@ function Projects() {
                       alt=""
                     />
                   </Link>
-                </li>
+                </div>
               );
             }).reverse()}
           </div>
         </div>
 
-
-
-
         <div className="all_project_all_wrap">
-            
-          <div className="project_title">
-            All Projects of Morement
-          </div>
+          <div className="project_title">All Projects of Morement</div>
           <div className="all_project_wrap">
-            {MainProject.map((it, idx) => {
+            {AllProject.map((it, idx) => {
               return (
-                <li
+                <div className="all_project"
                   key={idx}
                   data-aos="fade-up"
                   data-aos-delay={50 * idx}
                   data-aos-duration="300"
                 >
                   <Link to={it.link}>
-                    <img
-                      src={
-                        process.env.PUBLIC_URL +
-                        `/images/project/thumbnail/thumb_0${idx + 1}.png`
-                      }
-                      alt=""
-                    />
+                    <div className="all_project_list">
+                      <div className="all_project_list_title">
+                        <div>{it.title}</div>
+                      </div>
+
+                      <div className="all_project_list_field">
+                        <div>{it.field}</div>
+                      </div>
+
+                      <div className="all_project_list_desc">
+                        <div>{it.des2}</div>
+                      </div>
+                    </div>
                   </Link>
-                </li>
+                </div>
               );
             }).reverse()}
           </div>

@@ -5,13 +5,33 @@
     .main_project_all_wrap {
         border-bottom: 1px solid #222;
 
-        .main_project_wrap { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 100px 0; }
+        .main_project_wrap {
+            display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 100px 0;
+
+            .main_project {
+                img { transition: 0.5s; }
+                &:hover {
+                    img { scale: 0.95; }
+                }
+            }
+        }
     }
     .all_project_all_wrap {
         border-bottom: 1px solid #222; padding: 100px 0;
 
-        .all_project_wrap { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 100px 0; }
+        .all_project_wrap {
+            display: grid; grid-template-columns: repeat(1, 1fr); gap: 20px; padding: 100px 0;
 
+            .all_project_list {
+                padding: 80px; border: 1px solid #222; display: grid; grid-template-columns: repeat(3,1fr); line-height: 1.45; transition: 0.5s;
 
+                &:hover {
+                    background: #fff;
+
+                    div { color: #222; }
+                }
+                .all_project_list_title { font-size: 24px; font-weight: 600; }
+            }
+        }
     }
 }
