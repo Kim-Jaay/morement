@@ -34,12 +34,20 @@ const ContactForm = () => {
     <div className="contact_form_all_wrap">
       <div className="wfull">
         <div className="contact_form_introduce">
-          <div data-aos="fade-up">Hi, I'm Jay 😃</div>
-          <div data-aos="fade-up">Thanks for taking an interest in me.</div>
-          <div data-aos="fade-up">If you want to get in touch, </div>
-          <div data-aos="fade-up">just leave me a message :)</div>
+          <div data-aos="fade-up" data-aos-duration="300">
+            Hi, I'm Jay 😃
+          </div>
+          <div data-aos="fade-up" data-aos-duration="600">
+            Thanks for taking an interest in me.
+          </div>
+          <div data-aos="fade-up" data-aos-duration="900">
+            If you want to get in touch,{" "}
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1200">
+            just leave me a message :)
+          </div>
           <div className="sssgap"></div>
-          <div data-aos="fade-up">
+          <div data-aos="fade-up" data-aos-duration="1500">
             <i className="xi-arrow-down"></i>
           </div>
         </div>
