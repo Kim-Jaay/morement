@@ -14,8 +14,11 @@ function Footer() {
           Our Morement
         </div>
         <div className="footer_con">
-          <div className="footer_top" data-aos="fade-up"
-          data-aos-duration="500">
+          <div
+            className="footer_top"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
             <a href="/morement" className="main_logo">
               Jay, morement
             </a>
@@ -32,10 +35,20 @@ function Footer() {
             </div>
           </div>
 
-          <div className="footer_bot" data-aos="fade-up"
-          data-aos-duration="500">
-            <div>This website is designed for personal portfolios.</div>
-            <div>© 2022-2024 Jay. All Rights Reserved.</div>
+          <div
+            className="footer_bot"
+            data-aos="fade-up"
+            data-aos-duration="500">
+            <div>
+              <div>This website is designed for personal portfolios.</div>
+              <div>© 2022-2024 Jay. All Rights Reserved.</div>
+            </div>
+
+            <div className="what_morement">
+              <a href="">
+                What is Morement
+              </a>
+            </div>
           </div>
         </div>
       </div>

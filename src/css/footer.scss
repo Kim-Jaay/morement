@@ -5,14 +5,20 @@
     .footer_title { font-size: 12.82vw; font-weight: 800; color: #fff; }
     .footer_con {
         display: flex; gap: 100px;
+
         .footer_top {
             div { margin: 0 0 4px 0; }
             .main_logo { margin: 0 0 24px 0; display: inline-block; }
         }
         .footer_bot {
-            div {
-                margin: 0 0 4px 0; 
+            width: 100%; display: flex; justify-content: space-between;
+
+            .what_morement {
+                font-size: 48px; font-size: 600; cursor: pointer; color: #777;
+transition: 0.5s;
+                &:hover { text-decoration: underline 2px solid #fff;  text-underline-offset:10px; color: #fff; transition: 0.5s;}
             }
+            div { margin: 0 0 4px 0; }
         }
     }
 }
