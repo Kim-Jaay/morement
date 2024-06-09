@@ -33,25 +33,47 @@ const ContactForm = () => {
   return (
     <div className="contact_form_all_wrap">
       <div className="wfull">
-        <div className="contact_form_introduce">
-          <div data-aos="fade-up" data-aos-duration="300">
-            Hi, I'm Jay 😃
+        <div className="contact_text_wrap">
+          <div className="contact_form_introduce">
+            <div data-aos="fade-up" data-aos-duration="300">
+              Hi, I'm Jay 😃
+            </div>
+            <div data-aos="fade-up" data-aos-duration="600">
+              Thanks for taking an interest in me.
+            </div>
+            <div data-aos="fade-up" data-aos-duration="900">
+              If you want to get in touch,{" "}
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1200">
+              just leave me a message :)
+            </div>
+            <div className="sssgap"></div>
+            <div data-aos="fade-up" data-aos-duration="1500">
+              <i className="xi-arrow-down"></i>
+            </div>
           </div>
-          <div data-aos="fade-up" data-aos-duration="600">
-            Thanks for taking an interest in me.
-          </div>
-          <div data-aos="fade-up" data-aos-duration="900">
-            If you want to get in touch,{" "}
-          </div>
-          <div data-aos="fade-up" data-aos-duration="1200">
-            just leave me a message :)
-          </div>
-          <div className="sssgap"></div>
-          <div data-aos="fade-up" data-aos-duration="1500">
-            <i className="xi-arrow-down"></i>
+          <div className="contact_form_desc" data-aos="fade-up" data-aos-duration="1500">
+            <div>
+              This is a space that captures my gaze and emotion toward the world.
+              Each work is a story that originated from my heart, and I want to share the beauty
+              and emotion expressed through design with you.
+              Each of the works that was born at my fingertips contains my dreams and passion.
+            </div>
+            <div className="ssssgap"></div>
+            <div>
+              I hope that a small resonance will resonate in your mind through
+              the designs that capture the timelessness and the preciousness of
+              the moment. I look forward to discovering new inspiration and
+              sympathizing with you on this journey.
+            </div>
+            <div className="ssssgap"></div>
+
+            <div>
+              It's an honor to share your precious time with you. I hope my
+              design brings a little joy and warmth. Thank you for visiting.
+            </div>
           </div>
         </div>
-
         <form ref={form} onSubmit={sendEmail}>
           <div className="contact_info">
             <div className="contact_form_name" data-aos="fade-up">
