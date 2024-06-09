@@ -48,6 +48,7 @@ function OurMorement() {
 
             <div className="morement_07 ourmorement_con" data-aos="fade-up">
               <div>Morement</div>
+              <div className="ourmorement_con_in">담아내다</div>
             </div>
           </div>
         </div>
