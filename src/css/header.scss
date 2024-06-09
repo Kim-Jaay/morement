@@ -1,5 +1,5 @@
 .header_all_wrap {
-  position: fixed; top: 0; left: 0; font-size: 18px; z-index: 999;width: 100%;
+  position: fixed; top: 0; left: 0; font-size: 18px; z-index: 999;width: 100%; background: rgba($color: #0d0d0d, $alpha: 0.5);
 
   a { cursor: pointer; }
   .header_wrap {  height: 100px; display: flex; justify-content: space-between; color: #fff; z-index: 999; width: 100%; line-height: 100px; }
