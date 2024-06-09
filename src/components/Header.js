@@ -10,7 +10,12 @@ function Header() {
         </a>
 
         <div className="header_nav">
-          <Link to="/Resume">Resume</Link>
+          <a
+            href={process.env.PUBLIC_URL + "/Resume_KimJuHyun.pdf"}
+            download="Resume_김주현"
+          >
+            Resume
+          </a>
           <Link to="/ContactForm">Contact</Link>
         </div>
       </div>
