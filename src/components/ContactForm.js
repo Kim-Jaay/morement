@@ -52,7 +52,7 @@ const ContactForm = () => {
               <i className="xi-arrow-down"></i>
             </div>
           </div>
-          <div className="contact_form_desc" data-aos="fade-up" data-aos-duration="1500">
+          {/* <div className="contact_form_desc" data-aos="fade-up" data-aos-duration="1500">
             <div>
               This is a space that captures my gaze and emotion toward the world.
               Each work is a story that originated from my heart, and I want to share the beauty
@@ -72,7 +72,7 @@ const ContactForm = () => {
               It's an honor to share your precious time with you. I hope my
               design brings a little joy and warmth. Thank you for visiting.
             </div>
-          </div>
+          </div> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <div className="contact_info">
