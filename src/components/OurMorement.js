@@ -10,7 +10,7 @@ function OurMorement() {
           <div className="ourmorement_con_wrap">
             <div className="morement_01 ourmorement_con" data-aos="fade-up">
               <div>More</div>
-              <div className="ourmorement_con_in">지금보다 더</div>
+              <div className="ourmorement_con_in">지금 보다 더</div>
             </div>
             <div className="morement_02 ourmorement_con" data-aos="fade-up">
               <div>Moment</div>
